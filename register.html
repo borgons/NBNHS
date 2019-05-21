@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/schoolIcon.png">
+    <title>Admin Page | New Bataan National High School</title>
+  </head>
+  <body>
+
+<!--Container -->
+<section id = "main">
+		<div class="container">
+			<div class= "linkpage">Register Account<a class="linksE" href="login.html">&larr; Back</a></div>
+               <article id="function">
+                    <form name = "myForm" onsubmit="return validateform()" action= "addPost.php" method="POST">
+                             <label>ID no:</label><input type="text" id="adminID" name="postTitle" placeholder="Type your admin ID Number"><br><br>
+                             <label>First Name:</label><input type="text" id="adminFirst" name="postAuthor" placeholder="Type your First Name"><br><br>
+                             <label>Last Name:</label><input type ="text"id="adminLast" name="postBody" placeholder="Type your body Last Name"><br><br>
+                             <label>Role:</label><input type="text" id="adminDateReg" name="postDate" placeholder="Type your Role"><br><br>
+					    <hr><label>Password:</label><input type="text" id="adminPass" name="postDate" placeholder="Type your password"><br><br>
+					    <label>Confirm Password:</label><input type="text" id="adminConPass" name="postDate" placeholder="Type your confirm password"><br><br>
+                             <input type="submit" name="btnSubmit" class="buttonSub" value="Register Now">
+                   </form>
+               </article>
+
+
+
+
+
+
+
+
+
+		</div>
+</section>
+
+     <footer class="loginF" >
+          <p>New Bataan National High School, Copyright &copy; 2018</p>
+     </footer>
+  </body>
+</html>

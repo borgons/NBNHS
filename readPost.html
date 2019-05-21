@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/schoolIcon.png">
+    <!-- Modals -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+         $(document).ready(function(){
+              $('.menu').click(function(){
+                    $('ul').toggleClass('active');
+              })
+         })
+    </script>
+    <title>ABOUT THE SCHOOL | New Bataan National High School</title>
+  </head>
+  <body>
+<!--HEADER -->
+    <header>
+       <div class="container">
+          <div id="branding1">
+               <img class="SL" src="img/schoolLogo.png" alt="schoolLogo">
+               <img class="DL" src="img/depEd.png" alt="schoolLogo">
+          </div>
+       </div>
+    </header>
+<!--NAV -->
+    <nav>
+         <div class ="toggle">
+             <i class="fas fa-bars menu" aria-hidden="true"></i>
+         </div>
+              <div class="container">
+                   <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li class="current"><a href="#">Announcements</a></li>
+                   </ul>
+              </div>
+    </nav>
+
+<!--Main Content -->
+     <section id = "main">
+	          <div class="container">
+				<div class ="linkpage">Show Post &rarr; Read Post <a class="return" href="blogIndex.html">&larr; Back</a></div>
+		               <article id="mainPostTitle">
+							<span class = "postTitle">Hello</span><br>
+							<small> Cardo Dalisay</small><br>
+							<small> 2018-09-10</small>
+
+		               </article>
+                         <article id="content">
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi
+                                        at nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+                               <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Edit Post</button>
+                        </article>
+
+	          </div>
+     </section>
+<!-- Modals part -->
+<div class= "linkpageB">
+     <div class="w3-container">
+
+
+          <div id="id01" class="w3-modal">
+               <div class="w3-modal-content">
+               <header class="w3-container w3-red">
+                  <span onclick="document.getElementById('id01').style.display='none'"
+                  class="w3-button w3-display-topright">&times;</span>
+                  <h2>Attention....</h2>
+
+
+               </header>
+                    <div class="w3-container">
+                       <p>If you want to change or add the content, Please ask your content manager to change/add the content you like and log-in....</p>
+
+                       <a class ="modalr" href = "login.html">Please Log-In </a>
+                    </div>
+
+               </div>
+          </div>
+     </div>
+</div>
+<!--footer -->
+     <footer>
+          <p>New Bataan National High School, Copyright &copy; 2018</p>
+     </footer>
+  </body>
+</html>

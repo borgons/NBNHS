@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/schoolIcon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+         $(document).ready(function(){
+              $('.menu').click(function(){
+                    $('ul').toggleClass('active');
+              })
+         })
+    </script>
+    <title>Admin Page | New Bataan National High School</title>
+  </head>
+  <body>
+<!--NAV -->
+    <nav>
+         <div class ="toggleAd">
+             <i class="fas fa-bars menu" aria-hidden="true"></i> <span class ="adminuser">Welcome Admin</span>
+         </div>
+              <div class="container">
+                   <ul>
+                        <li><a href="#">Log-Out</a></li>
+                        <li class="current"><a href="#">Announcements</a></li>
+                        <li><a href="addPost.html">Add Post</a></li>
+
+                   </ul>
+              </div>
+    </nav>
+<!--Container -->
+<section id = "main">
+		<div class="container">
+			<div class= "linkpage">Show Post &rarr; Read Post<a class="linksE" href="blogIndexAdmin.html">&larr; Back</a><a class="linksR" href="editPost.html">Edit Post</a></div>
+				<article id="mainPostTitle">
+						<span class = "postTitle">Hello</span><br>
+						<small> Cardo Dalisay</small><br>
+						<small> 2018-09-10</small>
+
+				</article>
+				<article id="content">
+						<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Ut enim ad minim veniam, quis nostrud exercitation
+							ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi
+							at nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                   <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     							Ut enim ad minim veniam, quis nostrud exercitation
+     							ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi
+     							at nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>     
+                                   <form method ="POST" action="showPost.php">
+                                        <input type="hidden" name="delete_id" value="<?php echo $post['postID']; ?>">
+                                        <input type="submit" name="btnDelete" value="Delete" class="btnDelete">
+                                   </form>
+
+                   </article>
+
+		</div>
+</section>
+
+     <footer class="loginF" >
+          <p>New Bataan National High School, Copyright &copy; 2018</p>
+     </footer>
+  </body>
+</html>

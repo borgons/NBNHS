@@ -1,0 +1,97 @@
+//COMPUTE AVERAGE FOR FIRST SEMESTER 
+ function FirstCalc()
+            {
+                var Sub1 = parseFloat(document.getElementById('FSub1').value);
+                var Sub2 = parseFloat(document.getElementById('FSub2').value);
+                var Sub3 = parseFloat(document.getElementById('FSub3').value);
+                var Sub4 = parseFloat(document.getElementById('FSub4').value);
+                var Sub5 = parseFloat(document.getElementById('FSub5').value);
+                var Sub6 = parseFloat(document.getElementById('FSub6').value);
+                var Sub7 = parseFloat(document.getElementById('FSub7').value);
+                var Sub8 = parseFloat(document.getElementById('FSub8').value);
+                var FtotalGrade = Sub1 + Sub2 + Sub3 + Sub4 + Sub5 + Sub6 + Sub7 + Sub8;
+                var FaveGrade = FtotalGrade / 8;
+                
+
+                //totalGrade = 
+                document.getElementById('FaverageGrade').value =FaveGrade.toFixed(2);
+
+                
+                
+            }
+            
+
+ function SecondCalc()
+            {
+                var SecSub1 = parseFloat(document.getElementById('SSub1').value);
+                var SecSub2 = parseFloat(document.getElementById('SSub2').value);
+                var SecSub3 = parseFloat(document.getElementById('SSub3').value);
+                var SecSub4 = parseFloat(document.getElementById('SSub4').value);
+                var SecSub5 = parseFloat(document.getElementById('SSub5').value);
+                var SecSub6 = parseFloat(document.getElementById('SSub6').value);
+                var SecSub7 = parseFloat(document.getElementById('SSub7').value);
+                var SecSub8 = parseFloat(document.getElementById('SSub8').value);
+                var StotalGrade = SecSub1 + SecSub2 + SecSub3 + SecSub4 + SecSub5 + SecSub6 + SecSub7 + SecSub8;
+                var SaveGrade = StotalGrade / 8;
+                
+
+                //totalGrade = 
+                document.getElementById('SaverageGrade').value =SaveGrade.toFixed(2);
+
+                
+                
+            } 
+
+
+ function attdCalc()
+            {
+                //FOR PRESENT DAYS
+                var pJun = parseFloat(document.getElementById('preJun').value);
+                var pJul = parseFloat(document.getElementById('preJul').value);
+                var pAug = parseFloat(document.getElementById('preAug').value);
+                var pSept = parseFloat(document.getElementById('preSept').value);
+                var pOct = parseFloat(document.getElementById('preOct').value);
+                var pNov = parseFloat(document.getElementById('preNov').value);
+                var pDec = parseFloat(document.getElementById('preDec').value);
+                var pJan = parseFloat(document.getElementById('preJan').value);
+                var pFeb = parseFloat(document.getElementById('preFeb').value);
+                var pMar = parseFloat(document.getElementById('preMar').value);
+                var pApr = parseFloat(document.getElementById('preApr').value);
+                //ABSENT DAYS
+                var aJun = parseFloat(document.getElementById('abJun').value);
+                var aJul = parseFloat(document.getElementById('abJul').value);
+                var aAug = parseFloat(document.getElementById('abAug').value);
+                var aSept = parseFloat(document.getElementById('abSept').value);
+                var aOct = parseFloat(document.getElementById('abOct').value);
+                var aNov = parseFloat(document.getElementById('abNov').value);
+                var aDec = parseFloat(document.getElementById('abDec').value);
+                var aJan = parseFloat(document.getElementById('abJan').value);
+                var aFeb = parseFloat(document.getElementById('abFeb').value);
+                var aMar = parseFloat(document.getElementById('abMar').value);
+                var aApr = parseFloat(document.getElementById('abApr').value);
+
+                var pTotal = pJun + pJul + pAug + pSept + pOct + pNov + pDec + pJan + pFeb + pMar + pApr;
+                var aTotal = aJun + aJul + aAug + aSept + aOct + aNov + aDec + aJan + aFeb + aMar + aApr;
+                
+
+                //Total Present Days = 
+                document.getElementById('preTotDays').value = pTotal;
+                document.getElementById('absTotDays').value = aTotal;
+
+                
+                
+            } 
+
+
+html tables in getting average
+<tr>
+  <td class="aveHighlight" colspan="3">GENERAL AVERAGE FOR THIS SEMESTER &rarr;</span></td>
+  <td><input class="valuesFG" type="number" name="" id="FaverageGrade" > </td>
+  
+</tr>
+
+<td><input class='valuesSub' type='text' name=''></td>
+<td><input class='valuesRate' type='number' ng-model='fstCOneFQtGr' name=''></td>
+<td><input class='valuesRate' type='number' ng-model='secCOneFQtGr' name=''></td>
+<td><input class='valuesFG' type='number' name='' id='totalGrade'></td>
+<td><button type="button" name ="add" id="add" >+</button></td>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="img/schoolIcon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+         $(document).ready(function(){
+              $('.menu').click(function(){
+                    $('ul').toggleClass('active');
+              })
+         })
+    </script>
+    <title>Admin Page | New Bataan National High School</title>
+  </head>
+  <body>
+<!--NAV -->
+    <nav>
+         <div class ="toggleAd">
+             <i class="fas fa-bars menu" aria-hidden="true"></i> <span class ="adminuser">Welcome Admin</span>
+         </div>
+              <div class="container">
+                   <ul>
+                        <li><a href="#">Log-Out</a></li>
+                        <li><a href="blogIndexAdmin.html">Announcements</a></li>
+                        <li class="current"><a href="#">Add Post</a></li>
+
+                   </ul>
+              </div>
+    </nav>
+<!--Container -->
+<section id = "main">
+		<div class="container">
+			<div class= "linkpage">Show Post &rarr; Add Post<a class="linksE" href="blogIndexAdmin.html">&larr; Back</a></div>
+               <article id="function">
+                    <form name = "myForm" onsubmit="return validateform()" action= "addPost.php" method="POST">
+                             <label id="postsTitle">Title:</label><input type="text" id="postsTitle" name="postTitle" placeholder="Type your Student ID Number"><br><br>
+                             <label id="postsAuthor">Author:</label><input type="text" id="postsAuthor" name="postAuthor" placeholder="Type your First Name"><br><br>
+                             <label id="postsBody">Body:</label><textarea id="postsBody" name="postBody" placeholder="Type your body Content"></textarea><br><br>
+                             <label id="postsDate">Date:</label><input type="text" id="postsDate" name="postDate" placeholder="Type your Date when you create a Post YYYY-MM-DD"><br><br>
+                             <input type="submit" name="btnSubmit" class="buttonSub" value="Add Post">
+                   </form>
+               </article>
+		</div>
+</section>
+
+     <footer class="loginF" >
+          <p>New Bataan National High School, Copyright &copy; 2018</p>
+     </footer>
+  </body>
+</html>

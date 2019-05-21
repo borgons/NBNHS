@@ -1,0 +1,1291 @@
+body{
+	font: 18px/1.5 Arial, Helvetica, Sans-Serif;
+	padding:0;
+	margin:0;
+	background-color:#75d675;
+}
+
+/*=================COOKIES ===================*/
+a{
+	color:slategrey;
+}
+
+.button{
+	background:#ccc;
+	color:#000;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius : 3px;
+	display:inline-block;
+	border:1px solid #aaa;
+	
+}
+
+.cookie-banner{
+	background-color:#B1FA80;
+	padding-bottom: 10px;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*global*/
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	padding:0 20px 0 20px;
+
+}
+
+
+/*Header */
+header{
+	background-color:#313331;
+	color:#fff;
+	padding-top:30px;
+	min-height:70px;
+
+}
+
+
+
+header .SL{
+	 float:left;
+	width:160px;
+	padding-bottom:18px;
+}
+
+header .DL{
+	 float:right;
+	 width:160px;
+
+}
+
+.toggle{
+	width:100%;
+	padding:10px 20px;
+	background: #4B5254;
+	text-align: right;
+	box-sizing: border-box;
+	color:#fff;
+	font-size:20px;
+	display:none;
+}
+
+.toggleAd{
+	width:100%;
+	padding:10px 20px;
+	background: #4B5254;
+	text-align: left;
+	box-sizing: border-box;
+	color:#fff;
+	font-size:20px;
+	display:none;
+}
+
+nav{
+	background-color:#64757A;
+	margin-bottom:20px;
+
+}
+
+nav a {
+	color:#fff;
+	text-decoration:none;
+	/*text-transform: uppercase;*/
+	font-size:15px;
+}
+
+nav li{
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+nav .current a{
+	color:#4bfc66;
+	font-weight:bold;
+}
+
+nav a:hover{
+	color:#4bfc66;
+	text-decoration: underline;
+}
+
+
+
+/*Showcase*/
+#showcase .container{
+	min-height:400px;
+	background:url('../img/pic9.jpg') no-repeat -280px -550px ;
+
+}
+
+/*footer*/
+footer{
+	padding:20px;
+	margin-top:20px;
+	background-color:#313331;
+	color:#fff;
+	text-align:center;
+
+}
+/*=================ABOUT PAGE* ==============*/
+article#main-col{
+	width:82%;
+	background-color:#ccf2cb;
+	padding:5px;
+	padding-left:20px;
+	margin:auto;
+
+}
+
+h1.page-title{
+	text-align:center;
+}
+p.vIndent{
+	text-indent: 50px;
+
+}
+.HLvm{
+	font-weight:bold;
+}
+iframe{
+	margin-bottom:5px;
+
+}
+
+/*=================gallery PAGE* ==============*/
+
+.HLg{
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+img.pic{
+
+		margin-left:30px;
+		padding-left:3px;
+		padding-bottom:15px;
+		border:1px;
+		filter:grayscale(100%);
+		transition: 0.5s;
+
+}
+
+ img.pic:hover{
+		filter:grayscale(0);
+		transform: scale(1.1);
+}
+
+/*=================announcements page* ==============*/
+.linkpage{
+		width:82%;
+		padding:5px;
+		margin:auto;
+		color:#000;
+		font-size:16px;
+		font-weight:bold;
+}
+
+.w3-button{
+
+		display: block;
+}
+
+article#maintitle{
+		width:81.2%;
+		background: linear-gradient(to right,#054A03, #0C9608, #14F50C);
+		margin:0 auto;
+		padding:18px;
+		margin-bottom:15px;
+		border-bottom: #FF9F05  3px solid;
+
+}
+
+
+.postTitle{
+		font-family:Arial;
+		font-size:20px;
+		font-weight:bold;
+		color:#fff;
+}
+
+small{
+		color:#fff;
+		font-family:Arial;
+		font-size:15px;
+
+}
+
+.btnShowPost {
+		background-color: #ffd400;
+		height:20px;
+		width:80px;
+		float:right;
+	     cursor: pointer;
+		padding:14px;
+		font-family:Arial;
+		font-size: 16px;
+		color:#000;
+		text-decoration:none;
+		border-radius:10px;
+}
+
+.btnShowPost:hover{
+		background-color: #ffeb87;
+		color:#000;
+		font-weight:bold;
+
+}
+
+/*=================Read Post Page ==============*/
+article#mainPostTitle{
+		width:81.2%;
+		background: linear-gradient(to right,#054A03, #0C9608, #14F50C);
+		margin:0 auto;
+		padding:18px;
+		border-bottom: #FF9F05  3px solid;
+
+}
+
+
+article#content{
+		width:81.2%;
+		background-color:#F7F6CB;
+		margin:0 auto;
+		padding:18px;
+		padding-bottom:70px;
+		margin-bottom:15px;
+}
+
+p.para{
+	font-size:15px;
+	padding-right:20px;
+	text-align: justify;
+}
+
+
+.linksR{
+		float:right;
+		text-decoration:none;
+		color:#084701;
+		font-weight:none;
+		padding-right:8px;
+}
+
+.linksR:hover{
+		color:#AD0505;
+		font-weight:bold;
+}
+
+.linksE{
+		float:right;
+		text-decoration:none;
+		color:#084701;
+		font-weight:none;
+
+}
+
+.linksE:hover{
+		color:#AD0505;
+		font-weight:bold;
+}
+
+.linksEntry{
+		text-decoration:none;
+		color:#084701;
+		font-weight:none;
+
+}
+
+.linksEntry:hover{
+		color:#AD0505;
+		font-weight:bold;
+}
+
+
+
+
+
+
+
+
+/*modals */
+.modalr{
+		float:right;
+		color:#084701;
+}
+
+.modalr:hover{
+		color:#AD0505;
+}
+
+.return{
+	float:right;
+	text-decoration:none;
+	color:#084701;
+	font-weight:none;
+}
+
+.return:hover{
+	color:#AD0505;
+	font-weight:bold;}
+/*=================Log-In Page==============*/
+
+#headerLogo{
+		padding:15px;
+		width:45%;
+		margin:auto;
+		background: linear-gradient(to right,#054A03, #0C9608, #14F50C);
+		margin-top:5px;
+		border-bottom: #FF9F05  3px solid;
+}
+.schoolName{
+		color:white;
+		padding-left:5px;
+		font-size:35px;
+		font-family:Bernard MT Condensed;
+}
+article#mainLog-in{
+	width:45%;
+	background-color:#ccf2cb;
+	padding:5px;
+	padding-left:20px;
+	padding-top:50px;
+	margin:auto;
+	margin-top:10px;
+}
+
+.loginF{
+	color:#000;
+	background-color:inherit;
+}
+
+.SLlogin{
+	width:20%;
+}
+
+.w3-modal-content .w3-container{
+padding-bottom:50px;
+}
+
+/*sud sa modals*/
+.buttonConfirm {
+	background-color: #8fbafc;
+	border: none;
+	color:#000;
+	padding: 15px 32px;
+	text-align: center;
+	display: block;
+	font-size: 16px;
+	float:right;
+	cursor: pointer;
+	bottom:-15px;
+	border-radius:10px;
+}
+.buttonConfirm:hover{
+	background-color: #04265b;
+	color: white;
+	font-weight:bold;
+}
+
+
+
+
+/*===================Admin Page=============*/
+
+
+
+.adminuser{
+	font-size:17px;
+	float:right;
+	color:#fff;
+
+
+
+}
+
+article#function{
+	width:70%;
+	background-color:#F2F21B;
+	padding:30px;
+	padding-left:20px;
+	padding-bottom:80px;
+	margin:auto;
+
+
+}
+
+/*Add Post */
+textarea#postsBody{
+	width: 41%;
+	height:30%;
+	margin-left:34px;
+	padding:5px;
+
+}
+
+input[type=text] {
+	width: 45%;
+	padding: 10px 20px;
+	margin:0;
+	box-sizing: border-box;
+}
+
+#postsTitle{
+	margin-left:40px;
+}
+
+#postsAuthor{
+	margin-left:20px;
+}
+
+#postsBody{
+	//margin-left:20px;
+}
+
+#postsDate{
+	margin-left:36px;
+}
+
+label{
+	padding-left:20%;
+}
+
+input.buttonSub {
+	background-color: #8fbafc;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	float:right;
+	cursor: pointer;
+	color:#000;
+	border-radius:10px;
+	margin-right:5px;
+}
+
+input.buttonSub:hover{
+	background-color: #04265b;
+	color: white;
+	font-weight:bold;
+	}
+
+.csHighlight{
+	font-weight: bold;
+}
+
+input.btnDelete {
+	background-color: #E68E93;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	float:right;
+	cursor: pointer;
+	color:#000;
+	border-radius:10px;
+}
+input.btnDelete:hover{
+	background-color: #F0000C;
+	color: white;
+	font-weight:bold;
+}
+/*====== Register Form =======*/
+input#adminID{
+	margin-left:129px;
+}
+
+input#adminFirst{
+	margin-left:83px;
+}
+
+input#adminLast{
+	margin-left:83px;
+}
+input#adminRole{
+	margin-left:133px;
+}
+
+input#adminPass{
+	margin-left:90px;
+	padding: 10px 20px;
+	width:40%;
+}
+input#adminConPass{
+	width:40%;
+	margin-left:22px;
+	padding: 10px 20px;
+}
+
+input#RadminPass{
+	margin-left:90px;
+	padding: 10px 20px;
+	width:45%;
+}
+input#RadminConPass{
+	width:45%;
+	margin-left:22px;
+	padding: 10px 20px;
+}
+
+.textInput:focus{
+	outline:none;
+}
+
+#adminForm_Error{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+/*============================STUDENT ENTRY ===========================*/
+#postsStdID{
+	margin-left:20px;
+}
+
+#postsStdLast{
+	margin-left:28px;
+}
+
+#postsStdFirst{
+	margin-left:28px;
+}
+
+#postsStdMid{
+	margin-left:28px;
+}
+
+#postsStdDate{
+	margin-left:33px;
+}
+
+#postsStdAge{
+	margin-left:80px;
+}
+
+#postsStdSex{
+	margin-left:80px;
+}
+
+#postsStdGrd{
+	margin-left:60px;
+}
+
+#postsStdSec{
+	margin-left:50px;
+}
+
+#postsStdSY{
+	margin-left:15px;
+}
+
+/*============================TEACHER ENTRY ===========================*/
+#postsTchID{
+	margin-left:35px;
+}
+
+#postsTchLast{
+	margin-left:45px;
+}
+
+#postsTchFirst{
+	margin-left:45px;
+}
+
+#postsTchMid{
+	margin-left:28px;
+}
+
+#srchTchLN{
+	width:20%;
+}
+
+
+#srchTchFN{
+	width:20%;
+}
+
+#srchTchMN{
+	width:18%;
+}
+	
+/*============================SUBJECT  ENTRY ===========================*/
+
+#postsSubjID{
+	margin-left:70px;
+}
+
+#postsSubjTitle{
+	margin-left:130px;
+}
+
+/*============================GRADE ENTRY SEARCH ===========================*/
+
+#grdsearchLRN{
+	margin-left:35px;
+	width:20%;
+}
+
+#postsSubjTitle{
+	margin-left:130px;
+}
+
+#stdQuery{
+	width:20%;
+	
+}
+
+#tchQuery{
+	width:20%;
+}
+
+
+
+
+
+
+
+
+/*===========================GRADES STYLING =================================================*/
+
+hr.border{
+	border: 1.5px solid #000;
+}
+
+
+/*Tables part*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+td.csHighlight { font-weight:bold; text-align:left; }
+td.aveHighlight { font-weight:bold; text-align:right; }
+td.valueH {font-weight:bold;}
+th.aveHighlight { font-weight:bold; text-align:right; }
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color: #f2f2f2}
+th {
+  background-color: #003300;
+  color: white;
+}
+
+input.valuesDaysTot{
+	padding:5px;
+	width:80%;
+	border:1px solid green;
+}
+
+input.valuesDays{
+	padding:5px;
+	width:60%;
+	border:1px solid black;
+}
+
+input.valuesBR{
+	padding:5px;
+	width:30%;
+	border:1px solid green;
+}
+
+input.valuesRate{
+	padding:5px;
+	width:45%;
+	border:1px solid black;
+}
+
+input.valuesFG{
+	padding:5px;
+	width:30%;
+	border:1px solid green;
+}
+
+input.valuesSub{
+	width:100%;
+	padding:5px;
+	border:1px solid black;
+}
+
+input.grdLast{
+	width:30%;
+	margin-right:20px;
+}
+
+input.grdFirst{
+	width:18%;
+	margin-right:20px;
+}
+
+input.grdMid{
+	width:15%;
+}
+
+input.grdSex{
+	width:5%;
+	margin-right:20px;
+}
+
+input.grdGrade{
+	width:5%;
+	margin-right:20px;
+}
+
+input.grdBirth{
+	width:15%;
+	margin-right:20px;
+}
+
+input.grdAge{
+	width:6%;
+	margin-right:35px;
+}
+
+input.grdSection{
+	width:25%;
+	margin-right:35px;
+}
+
+input.grdSchoolYear{
+	width:10%;
+	margin-right:35px;
+}
+
+article#stdInfo{
+	width:90%;
+	background-color: #ffc34d;
+	padding:30px;
+	padding-left:20px;
+	padding-bottom:80px;
+	margin:auto;
+}	
+
+article#stdGrades{
+	width:90%;
+	background-color: #ffc34d;
+	padding:30px;
+	padding-left:20px;
+	padding-bottom:80px;
+	margin:auto;
+}
+
+article#stdValues{
+	width:90%;
+	background-color: #ffc34d;
+	padding:30px;
+	padding-left:20px;
+	padding-bottom:80px;
+	margin:auto;
+}
+
+article#stdAttd{
+	width:90%;
+	background-color: #ffc34d;
+	padding:30px;
+	padding-left:20px;
+	padding-bottom:80px;
+	margin:auto;
+}
+
+
+/*===================ERROR IN JQUERY ===*/ 
+.error{
+	color:red;
+	margin-left:25px;
+}
+
+/* Media Queries */
+@media (max-width:768px){
+
+	header .SL{
+		float:none;
+		width:40%;
+	}
+
+	header .DL{
+		float:right;
+		width:40%;
+	}
+
+	footer{
+		font-size:14px;
+	}
+
+	.toggleAd{
+		display:block;
+		cursor: pointer;
+		padding-top:15px;
+		padding-bottom:20px;
+
+	}
+
+	.adminuser{
+		font-size:17px;
+	}
+
+	li.adminuser{
+		display:none;
+	}
+
+	.toggle{
+		display:block;
+		cursor: pointer;
+	}
+
+	ul{
+		width:100%;
+		display:none;
+	}
+
+	ul li{
+		display:block;
+		text-align:center;
+		padding-bottom:10px;
+	}
+
+	.active{
+		display:block;
+	}
+/*=================ABOUT PAGE* ==============*/
+	article#main-col{
+		width:95%;
+		background-color:#ccf2cb;
+		padding:5px;
+		padding-left:20px;
+		padding-right:20px;
+		margin:auto;
+
+	}
+
+	p.vIndent{
+		text-indent: 50px;
+		font-size:16px;
+		text-align:justify;
+		padding-right:20px;
+	}
+
+	h1.page-title{
+		font-size:17px;
+		text-align:center;
+	}
+
+	.HLvm{
+		font-size:17px;
+	}
+
+	iframe{
+		width:90%;
+	}
+/*=================Gallery PAGE* ==============*/
+    img.pic{
+        width:100px;
+        height:80px;
+
+    }
+
+	img.pic:hover{
+	    		filter:grayscale(0);
+	    		transform: scale(0.9);
+    }
+	.HLg{
+			font-size:17px;
+	}
+
+/*=================Blog Pages* ==============*/
+	.linkpage{
+			font-size:15px;
+	}
+
+	article#mainPostTitle{
+			width:95%;
+			background: linear-gradient(to right,#054A03, #0C9608, #14F50C);
+			margin:0 auto;
+			padding:18px;
+			border-bottom: #FF9F05  3px solid;
+
+	}
+
+	article#content{
+			width:95%;
+			background-color:#F7F6CB;
+			margin:0 auto;
+			padding:18px;
+
+			padding-bottom:60px;
+			margin-bottom:15px;
+			text-align:justify;
+	}
+/*#################ADMIN#################*/
+/*=================LogIn* ==============*/
+		img.SLlogin{
+			width:50%;
+			display:block;
+			margin-left:80px;
+		}
+
+
+		article#mainLog-in{
+			width:90%;
+			background-color:#ccf2cb;
+			padding:5px;
+			padding-left:20px;
+			padding-top:50px;
+			margin:auto;
+			margin-top:10px;
+		}
+
+		#headerLogo{
+			padding:15px;
+			width:80%;
+			margin:auto;
+			background: linear-gradient(to right,#054A03, #0C9608, #14F50C);
+			margin-top:5px;
+			border-bottom: #FF9F05  3px solid;
+		}
+		.schoolName{
+				color:white;
+				padding-left:5px;
+				font-size:25px;
+				font-family:Bernard MT Condensed;
+		}
+
+		label{
+
+			font-family:Arial, Sans-serif;
+			font-size:15px;
+			margin-left:-50px;
+		}
+
+		input#stdID{
+			margin-left:55px;
+			width:70%;
+		}
+		input#stdPass{
+			margin-left:55px;
+			width:70%;
+		}
+		.some{
+			margin-left:-80px;
+		}
+
+		.buttonConfirm{
+			margin-top:10px;
+		}
+
+/*=============AddPost============*/
+
+		article#function{
+			width:80%;
+			background-color:#F2F21B;
+			padding:30px;
+			padding-left:20px;
+			padding-bottom:80px;
+
+		}
+
+		label#postsTitle,label#postsAuthor,label#postsBody,
+		label#postsDate{
+			margin-left:-25px;
+		}
+
+			input#postsTitle{
+				margin-left:30px;
+				width:60%;
+			}
+			input#postsAuthor{
+				margin-left:15px;
+				width:60%;
+			}
+			textarea#postsBody{
+				margin-left:26px;
+				width:56%;
+			}
+			input#postsDate{
+				margin-left:28px;
+				width:60%;
+			}
+
+			p.para{
+				font-size:15px;
+				padding-right:20px;
+			}
+
+
+		/*==============Register and Recovery =========*/
+
+		input#adminID{
+			margin-left:60px;
+			width:58.5%;
+		}
+
+		input#adminFirst{
+			margin-left:20px;
+			width:58%;
+		}
+
+		input#adminLast{
+			margin-left:20px;
+			width:58%;
+		}
+
+		input#adminRole{
+			margin-left:62px;
+			width:57.5%;
+		}
+
+		input#adminPass{
+			margin-left:17px;
+			width:47%;
+		}
+
+		input#adminConPass{
+			width:32.0%;
+			margin-left:-1.5px;
+			padding: 10px 20px;
+		}
+
+		input#RadminPass{
+			margin-left:25px;
+			padding: 10px 20px;
+			width:57.5%;
+		}
+		input#RadminConPass{
+			width:46%;
+			margin-left:-2px;
+			padding: 10px 20px;
+		}
+
+
+		#adminForm_Error{
+			font-size:15px;
+		}
+		/*===============SHOW POST ===============*/
+		input.btnDelete {
+			margin-right:20px;
+		}
+
+
+		/*============================STUDENT ENTRY ===========================*/
+		#postsStdID{
+			width:60%;
+		}
+
+		#postsStdLast{
+			width:60%;
+		}
+
+		#postsStdFirst{
+			width:60%;
+		}
+
+		#postsStdMid{
+			width:55%;
+		}
+
+		#postsStdDate{
+			width:60%;
+		}
+
+		#postsStdAge{
+			width:58%;
+		}
+
+		#postsStdSex{
+			width:58%;
+		}
+
+		#postsStdGrd{
+			width:58%;
+		}
+
+		#postsStdSec{
+			width:58%;
+		}
+
+		#postsStdSY{
+			width:60%;
+		}
+
+		/*============================TEACHER ENTRY ===========================*/
+		#postsTchID{
+			width:55%;
+		}
+
+		#postsTchLast{
+			width:55%;
+		}
+
+		#postsTchFirst{
+			width:55%;
+		}
+
+		#postsTchMid{
+			width:55%;
+		}
+
+
+		/*============================SUBJECT  ENTRY ===========================*/
+
+		#postsSubjID{
+			margin-left:20px;
+			width:60%;
+		}
+
+		#postsSubjTitle{
+			margin-left:70px;
+			width:60%;
+		}
+
+		/*============================GRADE ENTRY SEARCH ===========================*/
+
+			h2{
+				font-size:20px;
+			}
+
+			h4{
+				font-size:15px;
+			}
+
+			#grdsearchLRN{
+				width:40%;
+			}
+
+			#postsSubjTitle{
+				margin-left:70px;
+			}
+
+			#stdQuery{
+				width:40%;
+				
+			}
+
+			#tchQuery{
+				width:40%;
+			}
+
+			#srchGrdLN{
+				width:55%;
+			}
+
+			#srchGrdFN{
+				
+				margin-left:5px;
+				width:55%;
+			}
+	
+			#srchGrdMN{
+				width:55%;
+			}
+
+			#srchGrdDoB{
+				width:55%;
+			}
+
+			#srchGrdAge{
+				margin-left:65px;
+			}
+
+
+			#srchGrdSex{
+				margin-left:65px;
+			}
+
+			#srchGrdGr{
+				margin-left:47px;
+			}
+
+			#srchGrdSection{
+				margin-left:38px;
+			}
+
+			#srchGrdSY{
+				width:50%;
+			}
+
+			#srchTchLN{
+				margin-left:20px
+				width:50%;
+			}
+
+			#srchTchFN{
+				margin-left:20px;
+				width:50%;
+			}
+
+			#srchTchMN{
+				width:50%;
+			}
+	
+		/*GRADES*/
+
+
+			input.valuesRate{
+				width:85%;
+			}
+
+			input.valuesFG{
+				width:50%;
+			}
+
+			input.valuesRate[type=number]{
+				width:150%;	
+				margin-right:15px;		
+			}
+
+			input.valuesBR{
+				width:95%;
+			}
+
+			input.valuesDays{
+				width:95%;
+			}
+
+
+			input.buttonSub {
+				
+				
+				padding: 10px 22px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 14px;
+				float:right;
+				cursor: pointer;
+				color:#000;
+				
+				margin-right:5px;
+			}
+	
+}
